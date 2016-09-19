@@ -20,7 +20,6 @@ if (env === 'development') {
 
 app.use(bodyParser.json())
 app.use(cors())
-
 app.use(express.static(publicPath))
 
 app.get('*', (req, res) => {
