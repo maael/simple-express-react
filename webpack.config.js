@@ -8,13 +8,13 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   entry: {
-    main: [      
+    main: [
       'webpack-dev-server/client?http://localhost:4241',
       'webpack/hot/only-dev-server',
       path.join(__dirname, 'src', 'main.js')
     ]
   },
-  output: { 
+  output: {
     path: path.join(__dirname, 'public', 'js'),
     publicPath: 'http://localhost:4241/js/',
     filename: 'bundle.js'
