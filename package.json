@@ -10,6 +10,7 @@
     "clean": "rm ./public/js/bundle.js & rm ./public/js/bundle.js.map",
     "start": "node server.js",
     "pretest": "npm run lint",
+    "prepush": "npm test",
     "test": ""
   },
   "author": "Matthew Elphick",
@@ -32,6 +33,7 @@
     "babel-preset-react": "^6.11.1",
     "eslint": "^3.5.0",
     "http-proxy": "^1.15.1",
+    "husky": "^0.11.7",
     "snazzy": "^5.0.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.2"

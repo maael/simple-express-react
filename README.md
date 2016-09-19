@@ -16,6 +16,7 @@ This project is a template containing -
     - [react-router](https://www.npmjs.com/package/react-router)
   - [standard linting](https://www.npmjs.com/package/standard)
     - [snazzy output](https://www.npmjs.com/package/snazzy)
+  - [husky](https://www.npmjs.com/package/standard) to run linting and tests prepush
 
 ## Included modules
 
@@ -33,7 +34,7 @@ This project is a template containing -
   }
 ```
 
-### 9 Dev dependencies
+### 10 Dev dependencies
 ```
   "devDependencies": {
     "babel-core": "^6.14.0",
@@ -42,6 +43,7 @@ This project is a template containing -
     "babel-preset-react": "^6.11.1",
     "eslint": "^3.5.0",
     "http-proxy": "^1.15.1",
+    "husky": "^0.11.7",
     "snazzy": "^5.0.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.15.2"
