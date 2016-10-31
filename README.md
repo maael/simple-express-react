@@ -1,5 +1,9 @@
 # simple-express-react
 
+
+[![Build Status](https://img.shields.io/travis/maael/simple-express-react.svg?style=flat-square)](https://travis-ci.org/maael/simple-express-react)
+[![Code Climate](https://img.shields.io/codeclimate/github/maael/simple-express-react.svg?style=flat-square)](https://codeclimate.com/github/maael/simple-express-react)
+
 This project is a template containing -
   - [express](https://www.npmjs.com/package/express)
     - [body-parser](https://www.npmjs.com/package/body-parser)
